@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: 200px;
+    color: #fff;
+    background-color: #10258d;
+    width: 100%;
+    border-top: 0.5px solid #f4f11d;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+
+.text{
+   flex: 1;
+}
+
+.text h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.contacts h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.contacts p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.contacts a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contacts a:hover {
+    color: #f4f11d;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .footer{    
+        min-height: auto;
+        width: 100%;
+        padding: 30px 0;
+        align-items: center;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text h3 {
+        font-size: 24px;
+    }
+
+    .text p {
+        font-size: 15px;
+    }
+
+    .contacts {
+        align-items: center;
+        width: 100%;
+    }
+
+    .contacts h3 {
+        font-size: 16px;
+    }
+
+    .contacts p {
+        font-size: 14px;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        gap: 25px;
+        padding: 0 15px;
+    }
+
+    .text h3 {
+        font-size: 22px;
+    }
+}

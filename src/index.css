@@ -1,0 +1,1 @@
+ .desktop-header { display: block; } /* HEADER MOBILE */ .mobile-header { display: none; } /* CELULAR */ @media (max-width: 768px) { .desktop-header { display: none; } .mobile-header { display: block; } }

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 500px;
+    color: #fff;
+    background-color: #10258d;
+    width: 100%;
+    padding: 40px 20px;
+    gap: 40px;
+}
+
+.about img{
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+
+.about img {
+    animation: aparecer 1.5s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+.about img:hover {
+    transition: 0.2s;
+}
+
+.about img:hover {
+    transform: scale(1.1);
+}
+
+.img {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 0;
+}
+
+.text {
+    max-width: 600px;
+    padding: 20px 0;
+}
+
+.text h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #f4f11d;
+    
+}
+
+.text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.text h1 {
+    animation: aparecer 1s ease;
+}
+
+.text p {
+    animation: aparecer 1.5s ease;
+}
+
+.text h1:hover {
+    transition: 0.3s;
+}
+
+.text h1:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .about img {
+        width: 80%;
+        max-width: 200px;
+        margin-top: 25px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+        margin-right: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .text h1 {
+        font-size: 27px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .text p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0 auto;
+        max-width: 90%;
+        text-align: center;
+    }
+}
