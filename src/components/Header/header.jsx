@@ -1,6 +1,6 @@
 
 import './header.css'
-import logo from '../../assets/logo.jpeg';
+import logo from '../../assets/logoo.jpeg';
 import { SlLocationPin } from "react-icons/sl";
 import { Link } from 'react-router-dom';
 
