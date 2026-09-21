@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import NossaHistoria from "./pages/NossaHistoria";
 import Produtos from "./pages/Produtos";
 import Localizacao from "./pages/Localizacao";
+import Orcamento from "./pages/Orcamento";
 
 function App() {
   return (
@@ -43,6 +44,11 @@ function App() {
         <Route
           path="/localizacao"
           element={<Localizacao />}
+        />
+
+        <Route
+          path="/orcamento"
+          element={<Orcamento />}
         />
 
       </Routes>
