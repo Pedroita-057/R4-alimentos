@@ -23,7 +23,8 @@ export default function Hero() {
                     
                   <div className='hero-content-buttons'>
                       <button onClick={() => navigate('/orcamento')}>SOLICITAR ORÇAMENTO</button>
-                      <a className="whatsapp" href="https://wa.me/5582993270963" target="_blank" rel="noreferrer"><FaWhatsapp /> FALAR NO WHATSAPP</a>
+                      
+                      <a className="whatsapp" href={`https://wa.me/5582993270963?text=${encodeURIComponent('Olá, gostaria de saber quais produtos tem disponiveis')}`} target="_blank" rel="noreferrer"><FaWhatsapp /> FALAR NO WHATSAPP</a>
                     </div>
                 </div>
             </section>

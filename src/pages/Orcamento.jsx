@@ -23,8 +23,8 @@ const enviarWhatsApp = () => {
 
   Nome: ${form.nome}
   Empresa: ${form.empresa}
-    Cidade: ${form.cidade}
-    Telefone: ${form.telefone}
+  Cidade: ${form.cidade}
+  Telefone: ${form.telefone}
 
   Produtos de interesse:
 ${form.produtos}
