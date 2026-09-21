@@ -1,5 +1,5 @@
 
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/header";
 import HeaderMobile from "./components/HeaderMobile/HeaderMobile";
 
@@ -12,7 +12,7 @@ import Orcamento from "./pages/Orcamento";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
 
       
       <div className="desktop-header">
@@ -55,7 +55,7 @@ function App() {
 
       <Footer />
 
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
