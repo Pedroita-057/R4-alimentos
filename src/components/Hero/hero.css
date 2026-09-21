@@ -91,7 +91,7 @@
 }
 @media (max-width: 768px) {
     .hero{
-        height: 400px;
+        height: 540px;
         width: auto;
     }
     .hero-content h1{
