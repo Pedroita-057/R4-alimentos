@@ -19,14 +19,14 @@ function Orcamento() {
 
 const enviarWhatsApp = () => {
     const mensagem = `
-  SOLICITAÇÃO DE ORÇAMENTO
+         SOLICITAÇÃO DE ORÇAMENTO:
 
-  Nome: ${form.nome}
-  Empresa: ${form.empresa}
-  Cidade: ${form.cidade}
-  Telefone: ${form.telefone}
+         Nome: ${form.nome}
+         Empresa: ${form.empresa}
+         Cidade: ${form.cidade}
+         Telefone: ${form.telefone}
 
-  Produtos de interesse:
+         Produtos de interesse:
 ${form.produtos}
 `;
 
