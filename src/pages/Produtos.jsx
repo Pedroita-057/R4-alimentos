@@ -4,6 +4,7 @@ import cereais from "../assets/Atacadistas.jpg";
 import biscoitos from "../assets/Atacadistas.jpg";
 import bomboniere from "../assets/Atacadistas.jpg";
 import laticionios from "../assets/Atacadistas.jpg";
+import variados from "../assets/Atacadistas.jpg";
 import bebidas from "../assets/Atacadistas.jpg";
 import limpeza from "../assets/Atacadistas.jpg";
 import higienePessoal from "../assets/Atacadistas.jpg";
@@ -29,8 +30,8 @@ export default function Produtos() {
       imagem: laticionios,
     },
     {
-      nome: "Bomboniere",
-      imagem: bomboniere,
+      nome: "Produtos variados",
+      imagem: variados,
     },
     {
       nome: "Bebidas",
