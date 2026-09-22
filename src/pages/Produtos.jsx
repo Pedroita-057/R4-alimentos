@@ -68,7 +68,7 @@ export default function Produtos() {
             <h3>{categoria.nome}</h3>
 
             <a
-              href="https://wa.me/5582999999999"
+              href="https://wa.me/5582993270963?text=Olá!%20Gostaria%20de%20solicitar%20o%20orçamento%20para%20os%20produtos%20da%20R4%20Alimentos."
               target="_blank"
               rel="noreferrer"
             >
@@ -86,7 +86,7 @@ export default function Produtos() {
         </p>
 
         <a
-           href="https://wa.me/5582993270963"
+           href="https://wa.me/5582993270963?text=Olá!%20Gostaria%20de%20receber%20o%20catálogo%20de%20produtos%20da%20R4%20Alimentos."
            target="_blank"
            rel="noopener noreferrer"
            className="btn-whatsapp">
