@@ -1,13 +1,13 @@
 import "./produtos.css";
 
-import cereais from "../assets/Atacadistas.jpg";
-import biscoitos from "../assets/Atacadistas.jpg";
-import bomboniere from "../assets/Atacadistas.jpg";
-import laticionios from "../assets/Atacadistas.jpg";
+import cereais from "../assets/cereais.jpg";
+import biscoitos from "../assets/biscoitos.jpg";
+import bomboniere from "../assets/bomboniere.jpg";
+import laticinios from "../assets/laticinios.jpg";
 import variados from "../assets/Atacadistas.jpg";
 import bebidas from "../assets/Atacadistas.jpg";
 import limpeza from "../assets/Atacadistas.jpg";
-import higienePessoal from "../assets/Atacadistas.jpg";
+import banner from "../assets/Atacadistas.jpg";
 
 
 
@@ -26,8 +26,8 @@ export default function Produtos() {
       imagem: bomboniere,
     },
     {
-      nome: "Laticinios",
-      imagem: laticionios,
+      nome: "Laticínios",
+      imagem: laticinios,
     },
     {
       nome: "Produtos variados",
@@ -37,13 +37,13 @@ export default function Produtos() {
       nome: "Bebidas",
       imagem: bebidas,
     },
-     {
+    {
       nome: "Limpeza",
       imagem: limpeza,
     },
-     {
+    {
       nome: "Higiene Pessoal",
-      imagem: higienePessoal,
+      imagem: banner,
     },
   ];
 
