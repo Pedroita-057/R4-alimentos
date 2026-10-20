@@ -6,15 +6,12 @@
 .banner-produtos {
   height: 350px;
   background: linear-gradient(
-      rgba(0,0,0,.7),
-      rgba(0,0,0,.7)
-      
+      rgba(0,0,0,.2),
+      rgba(0,0,0,.2)
     ),
-    url("../assets/banner2.jpg");
-
+  url("../assets/Atacadistas.jpg");
   background-size: cover;
   background-position: center;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,9 +41,7 @@
   background: white;
   border-radius: 10px;
   overflow: hidden;
-
   box-shadow: 0 4px 12px rgba(0,0,0,.1);
-
   transition: 0.3s;
 }
 
@@ -56,7 +51,7 @@
 
 .card img {
   width: 100%;
-  height: 250px;
+  height: 310px;
   object-fit: cover;
 }
 
@@ -125,12 +120,14 @@
 }
 @media (max-width: 768px) {
   
-
+  .banner-produtos {
+    height: 280px;
+  }
   .banner-produtos h1 {
     font-size: 3rem;
   }
 
   .banner-produtos p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }

@@ -1,13 +1,13 @@
 import "./produtos.css";
 
-import cereais from "../assets/cereais.jpg";
+import cereais from "../assets/cereal.jpg";
 import biscoitos from "../assets/biscoitos.jpg";
-import bomboniere from "../assets/bomboniere.jpg";
+import bomboniere from "../assets/chocolates.jpg";
 import laticinios from "../assets/laticinios.jpg";
-import variados from "../assets/Atacadistas.jpg";
-import bebidas from "../assets/Atacadistas.jpg";
-import limpeza from "../assets/Atacadistas.jpg";
-import banner from "../assets/Atacadistas.jpg";
+import variados from "../assets/variados.jpg";
+import bebidas from "../assets/bebidas.png";
+import limpeza from "../assets/limpeza.jpg";
+import banner from "../assets/hpessoal.jpg";
 
 
 
