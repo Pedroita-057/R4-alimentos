@@ -76,7 +76,3 @@ Durante o desenvolvimento, foram praticados conceitos como javascript, html, css
 
 - GitHub: [@Pedroita-057](https://github.com/Pedroita-057)
 - LinkedIn: [Pedro Italo](https://www.linkedin.com/in/pedro-italo-54a78b246/?isSelfProfile=true)
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
