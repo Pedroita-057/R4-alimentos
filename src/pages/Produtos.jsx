@@ -1,7 +1,7 @@
 import "./produtos.css";
 import cereais from "../assets/cereais.jpg";
 import biscoitos from "../assets/biscoitos.jpg";
-import bomboniere from "../assets/bomboniere.jpg";
+import bomboniere from "../assets/bombonieredois.jpg";
 import laticinios from "../assets/laticinios.jpg";
 import variados from "../assets/variados.jpg";
 import bebidas from "../assets/bebidas.png";
