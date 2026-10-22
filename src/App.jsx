@@ -37,7 +37,7 @@ function App() {
         />
 
         <Route
-          path="/products"
+          path="/produtos"
           element={<Produtos />}
         />
 

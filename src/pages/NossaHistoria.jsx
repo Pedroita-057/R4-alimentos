@@ -10,16 +10,16 @@ import { CiDeliveryTruck } from "react-icons/ci";
 
 export default function NossaHistoria() {
   return (
-    <section className='section' >
+      <section className='section' >
 
-        <div className='title'>
+         <div className='title'>
              <h1>NOSSA HISTÓRIA</h1>
              <p>Mais que distribuir alimentos, construímos relações de confiança</p>
-        </div>
+         </div>
 
-        <div className='page'>
+         <div className='page'>
          <div className='img1'>
-            <img src={logo} alt="Logo" /> 
+             <img src={logo} alt="Logo" /> 
          </div>
         
          <div className='text1'> 
@@ -39,32 +39,32 @@ export default function NossaHistoria() {
           </div>
 
           <div className='vision'>
-                 <div className='missao'>
-                   <h2>  <TbTargetArrow color='#fff'size={30} /> Missão</h2> <br/>
-                      <p>Fornecer produtos <br/> 
-                        de qualidade <br/>
-                        com agilidade, <br/>
-                        confiança e excelência <br/>
-                        no atendimento.</p>
-                 </div>
+              <div className='missao'>
+                  <h2>  <TbTargetArrow color='#fff'size={30} /> Missão</h2> <br/>
+                  <p>Fornecer produtos <br/> 
+                     de qualidade <br/>
+                     com agilidade, <br/>
+                     confiança e excelência <br/>
+                     no atendimento.</p>
+               </div>
                 
-                 <div className='visao'>
-                     <h2><RxEyeOpen size={30} color='#fff'/> Visão</h2> <br/>
-                       <p>Ser referência no <br/>
-                         segmento de <br/>
-                         distribuição de alimentos, <br/>
-                         contribuindo para o crescimento <br/>
-                         dos nossos clientes.</p>
-                 </div>    
+               <div className='visao'>
+                    <h2><RxEyeOpen size={30} color='#fff'/> Visão</h2> <br/>
+                    <p>Ser referência no <br/>
+                       segmento de <br/>
+                       distribuição de alimentos, <br/>
+                       contribuindo para o crescimento <br/>
+                       dos nossos clientes.</p>
+               </div>    
               
-                 <div className='valores'> 
-                      <h2> <FaHandshake size={30} color='#fff' /> Valores</h2> <br/>
-                      <p> Compromisso <br/>
-                          Honestidade <br/>
-                          Qualidade   <br/>
-                          Respeito ao cliente <br/>
-                          Responsabilidade</p>
-                  </div>
+               <div className='valores'> 
+                     <h2> <FaHandshake size={30} color='#fff' /> Valores</h2> <br/>
+                     <p>Compromisso <br/>
+                        Honestidade <br/>
+                        Qualidade   <br/>
+                        Respeito ao cliente <br/>
+                        Responsabilidade</p>
+                </div>
              </div>
 
              <div className='cards'>

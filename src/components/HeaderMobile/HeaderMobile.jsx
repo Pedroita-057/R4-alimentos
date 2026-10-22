@@ -81,7 +81,7 @@ export default function HeaderMobile() {
           </Link>
 
           <Link
-            to="/products"
+            to="/produtos"
             onClick={fecharMenu}
           >
             NOSSOS PRODUTOS

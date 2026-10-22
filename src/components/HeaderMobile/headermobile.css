@@ -7,11 +7,6 @@
   z-index: 9999;
 }
 
-
-/* =========================
-   TOPO
-========================= */
-
 .header-mobile-top {
   height: 100px;
   padding: 0 20px;
@@ -19,9 +14,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
-
-/* LOGO */
 
 .header-mobile-top img {
   width: 120px;
@@ -32,11 +24,6 @@
   margin-top: 0;
 }
 
-
-/* =========================
-   BOTÃO MENU
-========================= */
-
 .menu-button {
   background: transparent;
   border: none;
@@ -46,22 +33,12 @@
   margin-right: 15px;
 }
 
-
-/* =========================
-   FUNDO ESCURO
-========================= */
-
 .menu-overlay {
   position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.55);
   z-index: 10000;
 }
-
-
-/* =========================
-   MENU LATERAL
-========================= */
 
 .menu-lateral {
   position: fixed;
@@ -80,17 +57,9 @@
   color: #fff;
 }
 
-
-/* MENU ABERTO */
-
 .menu-lateral.aberto {
   transform: translateX(0);
 }
-
-
-/* =========================
-   TOPO DO MENU
-========================= */
 
 .menu-topo {
   display: flex;
@@ -106,11 +75,6 @@
   height: 40px;
 }
 
-
-/* =========================
-   BOTÃO FECHAR
-========================= */
-
 .fechar-menu {
   background: transparent;
   border: none;
@@ -118,11 +82,6 @@
   font-size: 28px;
   cursor: pointer;
 }
-
-
-/* =========================
-   LINKS
-========================= */
 
 .menu-links {
   display: flex;
@@ -132,22 +91,14 @@
 
 .menu-links a {
   display: flex;
-
   align-items: center;
-
   gap: 10px;
-
   padding: 16px 5px;
-
   color: #fff;
-
   text-decoration: none;
-
   font-size: 16px;
   font-weight: 600;
-
   border-bottom: 1px solid #eee;
-
   transition: 0.3s;
 }
 
@@ -155,39 +106,21 @@
   color: #ffc107;
 }
 
-
-/* =========================
-   WHATSAPP
-========================= */
-
 .whatsapp-button {
   margin-top: auto;
-
   padding: 10px;
-
   background-color: #25d366;
-
   color: white;
-
   border-radius: 8px;
-
   text-align: center;
-
   text-decoration: none;
-
   font-weight: bold;
-
   transition: 0.3s;
 }
 
 .whatsapp-button:hover {
   opacity: 0.9;
 }
-
-
-/* =========================
-   RESPONSIVIDADE
-========================= */
 
 .mobile-header {
   display: none;
@@ -197,9 +130,7 @@
   display: block;
 }
 
-
 @media (max-width: 768px) {
-
   .desktop-header {
     display: none;
   }
